@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Mocha-Eshop</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/e48c6bd4f6.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href=""><span class="sprite backward">Backward</span> Outerwear</a>        
+        
+        <ul class="header_top_links dflex">
+            <li><a href="" class="sprite search">search</a></li>
+            <li module="Layout_orderBasketcount"><a href="" class="sprite cart" data-cart="{$basket_count}">cart</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <form action="/product/search.html" method="get" class="search-form">
+            <input id="banner_action" name="banner_action" value="" type="hidden">
+
+            <input type="search" name="keyword"placeholder="search...">
+            <button><span class="sprite barcode">search</span></button>
+        </form>
+
+        <div class="product-basic-info" module="product_detail">
+            <div class="picture" module="product_image">
+                <img src="{$big_img}" alt="">
+                <div class="pic_links">
+                    <div class="icon check_wishlist" module="product_action">
+                        <button type="button" id="actionWishClone">
+                            <span class="sprite wishlist">Add to Whishlist</span>
+                            <span class="sprite wishlist-checked">Add to Whishlist</span>
+                        </button>
+                    </div>
+                    <div class="icon">
+                        <!-- <span class="sprite share">share</span> -->
+                        {$customsns_icon}
+                    </div>                        
+                </div>
+            </div>
+            <div class="info"  module="product_action">
+                <div class="title_price" module="product_detail">
+                    <h4>{$name}</h4>
+                    <h5>{$prd_price_org}</h5>
+                </div>
+                <button class="add_to_cart" id="actionCartClone">Add to Cart</button>
+            </div>
+            <div class="swiper-container">
+                <ul class="additional-pics swiper-wrapper">
+                    <li class="swiper-slide"><a href=""><img src="images/details_sm_pic1.jpg" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="images/details_sm_pic1.jpg" alt=""></a></li>
+                    <li class="swiper-slide"><a href=""><img src="images/details_sm_pic1.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="description">
+                <h4 class="h4">Description</h4>  
+                <p>Kimono with lapel collar, long sleeves, slit in the back at the hem and matching belt.</p>
+                <p>HEIGHT OF MODEL: 178 cm. / 5′ 10″</p>
+            </div>
+            <div class="related-products">
+                <h4 class="h4">Wear with</h4>  
+                <ul>
+                    <li>
+                        <img src="images/details_related_pic1.jpg" alt="">
+                        <h5>RIBBED MIDI SKIRT</h5>
+                        <h6>$45</h6>
+                    </li>
+                    <li>
+                        <img src="images/details_related_pic1.jpg" alt="">
+                        <h5>RIBBED MIDI SKIRT</h5>
+                        <h6>$45</h6>
+                    </li>
+                    <li>
+                        <img src="images/details_related_pic1.jpg" alt="">
+                        <h5>RIBBED MIDI SKIRT</h5>
+                        <h6>$45</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="reviews">
+                <div class="header">
+                    <h4 class="h4">reviews</h4>
+                    <a href="" class="link">See all Reviews</a>
+                </div>
+                <ul>
+                    <li>
+                        <div class="profile">
+                            <img src="images/details_reviewer_pic1.png" alt="">
+                        </div>
+                        <div class="review-content">
+                            <div class="review-top-info">
+                                <div class="review-tt">
+                                    <h5>Ellen McLaughlin</h5>
+                                    <p>2hours ago</p>
+                                </div>
+                                <div class="review-rate">
+                                    <div class="rating" data-rate="2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>	
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-desc">
+                                <p>So we needed up ordering the deep fried salmon roll with Chinese hot mustard and wasabi noodles with salmon.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile">
+                            <img src="images/details_reviewer_pic1.png" alt="">
+                        </div>
+                        <div class="review-content">
+                            <div class="review-top-info">
+                                <div class="review-tt">
+                                    <h5>Ellen McLaughlin</h5>
+                                    <p>2hours ago</p>
+                                </div>
+                                <div class="review-rate">
+                                    <div class="rating" data-rate="3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>	
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-desc">
+                                <p>So we needed up ordering the deep fried salmon roll with Chinese hot mustard and wasabi noodles with salmon.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>    
+</body>
+
+</html>

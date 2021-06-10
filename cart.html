@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart - Mocha-Eshop</title>
+    <link rel="stylesheet" href="css/main.css">        
+    
+    <script src="https://kit.fontawesome.com/e48c6bd4f6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <script src="js/main.js"></script>
+
+</head>
+<body>
+    <header>
+        <a class="sprite close" href="list.html">close cart</a>
+        <h1>My Cart</h1>
+    </header>
+    <main>  
+        <form action="finish.html" class="cart-form">
+            <section class="cart_contents">
+                <header class="result">
+                    <p>
+                        <em><span class="count">0</span> items</em>
+                        in your cart
+                    </p>
+                </header>    
+                <ul class="cart_list">
+                    <li>
+                        <img src="images/cart_item_01.jpg" alt="">
+                        <div class="list_info">
+                            <h3>LONG DRESS WITH SLITS</h3>
+                            <h4 class="unit_price" data-price="89"></h4>
+                            <div class="options">
+                                <div class="item">
+                                    <label for="p32-size">size</label>
+                                    <select name="p32-size" id="p32-size">
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                    </select>
+                                </div>
+                                <div class="item">
+                                    <label for="p32-qty">Quantity</label>
+                                    <input type="number" name="p32-qty" min="1" value="1"> 
+                                </div>
+                            </div>
+                        </div>
+                        <span class="circle-close sprite">delete cart item</span>
+                    </li>
+                    <li>
+                        <img src="images/cart_item_01.jpg" alt="">
+                        <div class="list_info">
+                            <h3>LONG DRESS WITH SLITS</h3>
+                            <h4 class="unit_price" data-price="50"></h4>
+                            <div class="options">
+                                <div class="item">
+                                    <label for="p33-size">size</label>
+                                    <select name="p33-size" id="p33-size">
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                    </select>
+                                </div>
+                                <div class="item">
+                                    <label for="p33-qty">Quantity</label>
+                                    <input type="number" name="p33-qty" min="1" value="1"> 
+                                </div>
+                            </div>
+                        </div>
+                        <span class="circle-close sprite">delete cart item</span>
+                    </li>
+                    <li>
+                        <img src="images/cart_item_01.jpg" alt="">
+                        <div class="list_info">
+                            <h3>LONG DRESS WITH SLITS</h3>
+                            <h4 class="unit_price" data-price="70"></h4>
+                            <div class="options">
+                                <div class="item">
+                                    <label for="p34-size">size</label>
+                                    <select name="p34-size" id="p34-size">
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                    </select>
+                                </div>
+                                <div class="item">
+                                    <label for="p34-qty">Quantity</label>
+                                    <input type="number" name="p34-qty" min="1" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <span class="circle-close sprite">delete cart item</span>
+                    </li>
+                    <li>
+                        <img src="images/cart_item_01.jpg" alt="">
+                        <div class="list_info">
+                            <h3>LONG DRESS WITH SLITS</h3>
+                            <h4 class="unit_price" data-price="100">0</h4>
+                            <div class="options">
+                                <div class="item">
+                                    <label for="p35-size">size</label>
+                                    <select name="p35-size" id="p35-size">
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                        <option value="M">M</option>
+                                    </select>
+                                </div>
+                                <div class="item">
+                                    <label for="p35-qty">Quantity</label>
+                                    <input type="number" name="p35-qty" min="1" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <span class="circle-close sprite">delete cart item</span>
+                    </li>
+                </ul>
+            </section>
+            <div class="total_checkout">
+                <div class="total">
+                    <div class="item">
+                        <h5>Products Price</h5>
+                        <h6 class="price_total">0</h6>
+                    </div>
+                    <div class="item">
+                        <h5>Shipping cost</h5>
+                        <h6 class="shipping_cost" data-price="59">0</h6>
+                    </div>
+                    <div class="item">
+                        <h5>TOTAL Price</h5>
+                        <h6 class="total_price">0</h6>
+                    </div>
+                </div>
+                <button type="submit" class="btn">check out</button>
+            </div>
+        </form>          
+    </main>  
+</body>
+</html>

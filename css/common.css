@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela&family=Work+Sans&display=swap');
+
+
+/* ---------------- typography ---------------- */
+
+body, p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: #174D4D;
+}
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #174D4D;
+}
+
+h1{
+    font-size: 26px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+
+a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #252525;
+    text-decoration: none;
+}
+a:hover{
+    color:#fff;
+}
+
+
+.btn-bg {
+    padding: 0 30px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius:5px;
+    display: block;
+    background-color:#EAD6E8;
+    color:#174D4D;
+    margin: 50px 0;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+
+.top-hr, .bottom-hr {
+    
+    border:none;
+    height:1px;
+    box-shadow: 0 5px 5px -5px #a1a1a6 inset;
+}
+
+
+
+/* ---------------- button link ---------------- */
+
+button{
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn_container {
+    text-align: center;
+}
+/* ---------------- color ---------------- */
+
+
+
+/* ---------------- layout ---------------- */
+body.active aside{
+    left:0;
+}
+
+
+/* body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body > main{
+    flex:1;
+}
+
+
+ body > header{
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 22px;
+    position: relative;
+} 
+body > header h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+.header_top_links li+li{
+    margin-left: 30px;
+}
+.hidden{
+    display: none;
+}
+fieldset{
+    border:none;
+}
+legend{
+    display: none;
+} */
+
+
+.hidden{
+    display: none;
+}
+
+
