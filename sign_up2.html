@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title></title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <button class="toggle aside_toggle_btn"><i class="fas fa-bars"></i></button>
+        <h1 class="logo"><a href="index.html"></a></h1>
+        <ul class="top_menu">
+            <li><a href="sign_in.html" class="login"><i class="fas fa-user"></i></a></li>
+            <li><a href="cart.html" class="cart"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+    </header>
+    <aside>
+        <div class="aside_menu">
+            <button class="toggle aside_toggle_close"><i class="fas fa-times"></i></button>
+            <div class="aside_logo">
+                <!-- <a href=""><img src="images/logo.png" alt=""></a> -->
+            </div>
+            <ul class="top_menu">
+                <li><a href="sign_in.html" class="login"><i class="fas fa-user"></i></a></li>
+                <li><a href="" class="cart"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+        <ul class="aside_category">
+            <li>cases <span class="plus"><i class="fas fa-plus"></i></span>
+                <ul>
+                    <li>iPhone
+                        <ul>
+                            <li><a href="">iPhone 12 Pro Max</a></li>
+                            <li><a href="">iPhone 12 Pro</a></li>
+                            <li><a href="">iPhone 12</a> </li>
+                            <li><a href="">iPhone 12 Mini</a></li>
+                            <li><a href="">iPhone 11 Pro Max</a></li>
+                            <li><a href="">iPhone 11 Pro</a></li>
+                            <li><a href="">iPhone 11</a></li>
+                            <li><a href="">iPhone XR</a></li>
+                            <li><a href="">iPhone XS</a></li>
+                            <li><a href="">iPhone XS Max</a></li>
+                            <li><a href="">iPhone X</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="">Android</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="">Airpods</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">MacBook</a></li>
+                </ul>
+            </li>
+            <li>accessories <span class="plus"><i class="fas fa-plus"></i></span>
+                <ul>
+                    <li><a href="">apple watch</a></li>
+                    <li><a href="">airpods</a></li>
+                </ul>
+            </li>
+            <li>co-lab<span class="plus"><i class="fas fa-plus"></i></span>
+                <ul>
+                    <li><a href="">disney</a></li>
+                    <li><a href="">stranger things</a></li>
+                </ul>
+            </li>
+            <li><a href=""> about us</a> </li>
+        </ul>
+        <ul class="language">
+            <li class="english"><a href="">English</a><span class="plus"><i class="fas fa-plus"></i></span></li>
+            <ul>
+                <li class="korean"><a href="">Korean</a></li>
+            </ul>
+        </ul>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="search...">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+        <div class="btn_container">
+            <button><a href="sign_in.html" class="btn-bg">Login / Sign Up</a></button>
+
+        </div>
+
+    </aside>
+    <main>
+        <div class="event">
+            <p>
+                coming of age day promotion 15% off
+            </p>
+        </div>
+        <div class="signup_tt">
+            <h1>Sign Up with Casetify</h1>
+        </div>
+
+        <form action="/exec/front/Member/join/" class="sign_up_form">
+            <input id="useSimpleSignin" name="useSimpleSignin" value="T" type="hidden">
+            <input id="member_name_cert_flag" name="member_name_cert_flag" value="F" type="hidden">
+            <input id="is_name_auth_use" name="is_name_auth_use" value="F" type="hidden">
+            <input id="is_ipin_auth_use" name="is_ipin_auth_use" value="F" type="hidden">
+            <input id="is_mobile_auth_use" name="is_mobile_auth_use" value="F" type="hidden">
+            <input id="is_email_auth_use" name="is_email_auth_use" value="F" type="hidden">
+            <input id="default_auth_reg_page_flag" name="default_auth_reg_page_flag" value="E" type="hidden">
+            <input id="realNameEncrypt" name="realNameEncrypt" value="" type="hidden">
+            <input id="add1_name" name="add1_name" value="" type="hidden">
+            <input id="add2_name" name="add2_name" value="" type="hidden">
+            <input id="add3_name" name="add3_name" value="" type="hidden">
+            <input id="add4_name" name="add4_name" value="" type="hidden">
+            <input id="is_display_register_foreign" name="is_display_register_foreign" value="T" type="hidden">
+            <input id="idDuplCheck" name="idDuplCheck" value="" type="hidden">
+            <input id="emailDuplCheck" name="emailDuplCheck" value="" type="hidden">
+            <input id="login_id_type" name="login_id_type" value="id" type="hidden">
+            <input id="display_agree_information_check_flag" name="display_agree_information_check_flag" value="F"
+                type="hidden">
+            <input id="display_agree_consignment_check_flag" name="display_agree_consignment_check_flag" value="F"
+                type="hidden">
+            <input id="display_agree_privacy_optional_check_flag" name="display_agree_privacy_optional_check_flag"
+                value="F" type="hidden">
+            <input id="is_display_register_name" name="is_display_register_name" value="T" type="hidden">
+            <input id="display_required_name" name="display_required_name" value="T" type="hidden">
+            <input id="is_display_register_name_phonetic" name="is_display_register_name_phonetic" value=""
+                type="hidden">
+            <input id="display_required_name_phonetic" name="display_required_name_phonetic" value="" type="hidden">
+            <input id="is_display_register_eng_name" name="is_display_register_eng_name" value="" type="hidden">
+            <input id="display_required_name_en" name="display_required_name_en" value="" type="hidden">
+            <input id="passwd_type" name="passwd_type" value="C" type="hidden">
+            <input id="is_display_register_addr" name="is_display_register_addr" value="" type="hidden">
+            <input id="is_display_register_addr2" name="is_display_register_addr2" value="" type="hidden">
+            <input id="__addr1" name="__addr1" value="" type="hidden">
+            <input id="__city_name" name="__city_name" value="" type="hidden">
+            <input id="__state_name" name="__state_name" value="" type="hidden">
+            <input id="__isRuleBasedAddrForm" name="__isRuleBasedAddrForm" value="F" type="hidden">
+            <input id="display_required_address" name="display_required_address" value="" type="hidden">
+            <input id="display_required_address2" name="display_required_address2" value="" type="hidden">
+            <input id="is_display_register_mobile" name="is_display_register_mobile" value="F" type="hidden">
+            <input id="display_required_cell" name="display_required_cell" value="F" type="hidden">
+            <input id="display_register_mobile" name="display_register_mobile" value="T" type="hidden">
+            <input id="use_checking_mobile_number_duplication" name="use_checking_mobile_number_duplication" value="F"
+                type="hidden">
+            <input id="isMobileVerify" name="isMobileVerify" value="F" type="hidden">
+            <input id="is_display_register_phone" name="is_display_register_phone" value="" type="hidden">
+            <input id="display_required_phone" name="display_required_phone" value="" type="hidden">
+            <input id="display_register_phone" name="display_register_phone" value="T" type="hidden">
+            <input id="is_display_password_hint" name="is_display_password_hint" value="F" type="hidden">
+            <input id="required_is_sms_flag" name="required_is_sms_flag" value="F" type="hidden">
+            <input id="required_is_news_mail_flag" name="required_is_news_mail_flag" value="T" type="hidden">
+            <input id="is_display_register_birthday" name="is_display_register_birthday" value="" type="hidden">
+            <input id="display_required_is_birthday" name="display_required_is_birthday" value="" type="hidden">
+            <input id="display_required_sex" name="display_required_sex" value="" type="hidden">
+            <input id="nick_name_flag" name="nick_name_flag" value="F" type="hidden">
+            <input id="nick_name_confirm" name="nick_name_confirm" value="F" type="hidden">
+            <input id="display_required_nick_name_flag" name="display_required_nick_name_flag" value="" type="hidden">
+            <input id="is_display_register_wedding" name="is_display_register_wedding" value="" type="hidden">
+            <input id="display_required_is_wedding_anniversary" name="display_required_is_wedding_anniversary" value=""
+                type="hidden">
+            <input id="is_display_register_life_partner" name="is_display_register_life_partner" value="" type="hidden">
+            <input id="display_required_is_life_partner" name="display_required_is_life_partner" value="" type="hidden">
+            <input id="is_display_bank" name="is_display_bank" value="" type="hidden">
+            <input id="display_required_bank_account_no" name="display_required_bank_account_no" value="" type="hidden">
+            <input id="display_required_job" name="display_required_job" value="" type="hidden">
+            <input id="display_required_job_class" name="display_required_job_class" value="" type="hidden">
+            <input id="display_required_school" name="display_required_school" value="" type="hidden">
+            <input id="display_required_interest" name="display_required_interest" value="" type="hidden">
+            <input id="display_required_region" name="display_required_region" value="" type="hidden">
+            <input id="display_required_internet" name="display_required_internet" value="" type="hidden">
+            <input id="display_required_child" name="display_required_child" value="" type="hidden">
+            <input id="display_required_car" name="display_required_car" value="" type="hidden">
+            <input id="display_required_earning" name="display_required_earning" value="" type="hidden">
+            <input id="display_required_reco_id" name="display_required_reco_id" value="" type="hidden">
+            <input id="display_required_add1" name="display_required_add1" value="" type="hidden">
+            <input id="display_required_add2" name="display_required_add2" value="" type="hidden">
+            <input id="display_required_add3" name="display_required_add3" value="" type="hidden">
+            <input id="display_required_add4" name="display_required_add4" value="" type="hidden">
+            <input id="returnUrl" name="returnUrl" value="/member/join_result.html" type="hidden">
+            <input id="sUseCountryNumberFlag" name="sUseCountryNumberFlag" value="T" type="hidden">
+            <input id="sUseSeparationNameFlag" name="sUseSeparationNameFlag" value="F" type="hidden">
+            <input id="is_use_checking_join_info" name="is_use_checking_join_info" value="F" type="hidden">
+
+            <div class="bigpd">
+                <p class="field">
+                    <label for="useremail">Email Address</label>
+                    <input type="email" id="useremail" name="email1" placeholder="soeunsarah@gmail.com">
+                    <!-- <button type="button" class="btnBasic" onclick="checkEmail('')">중복확인</button> -->
+                </p>
+                <p class="field">
+                    <label for="userpw">Password</label>
+                    <input type="password" id="userpw" name="passwd" placeholder="Abc123**">
+
+                </p>
+                <p class="field">
+                    <label for="userpw">Password Confirm</label>
+                    <input type="password" id="userpw" name="user_passwd_confirm" placeholder="Abc123**">
+
+                </p>
+                <!-- <p class="field">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="your address">
+                   
+                </p> -->
+                <!-- <p class="field">
+                    <label for="phone">Phone number</label>
+
+                    <select id="mobile1" name="mobile[]" fw-filter="isNumber" fw-label="휴대전화" fw-alone="N" fw-msg="">
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="016">016</option>
+                        <option value="017">017</option>
+                        <option value="018">018</option>
+                        <option value="019">019</option>
+                    </select>-<input id="mobile2" name="mobile[]" maxlength="4" fw-filter="isNumber" fw-label="휴대전화"
+                        fw-alone="N" fw-msg="" value="" type="tel">-<input id="mobile3" name="mobile[]" maxlength="4"
+                        fw-filter="isNumber" fw-label="휴대전화" fw-alone="N" fw-msg="" value="" type="tel">
+
+                </p> -->
+            </div>
+
+        </form>
+        <div class="btn_container">
+            <button><a href="index.html" class="btn-bg sign_up_btn">Submit</a></button>            <p class="link">
+                Already a Member? <a href="sign_in.html"></a>
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
